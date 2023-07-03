@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 100px;
+}
+
+.column {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+}
+
+.column h2 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+.column ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.column ul li a:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col h4 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-col h4::before {
+    content: " ";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: blue;
+    bottom: -10px;
+}
+
+.footer-col ul li {
+    padding: 10px 0px;
+}
+
+.footer-col ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col input {
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px;
+}
+
+.footer-col .input {
+    padding: 0px 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.col p{
+    color: white;
+}
+
+.row hr{
+    opacity: 0.7;
+}
+
+.row .socialIcons i{
+    display: inline-block;
+    color:blue;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
